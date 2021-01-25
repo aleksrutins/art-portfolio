@@ -10,7 +10,7 @@ export default function App() {
         </Jumbotron>
         <h2>Projects</h2>
         <Project name="Jargon Visualized">
-            <Step name="Research">
+            <Step name="Research" img="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.trans-siberian.com%2Fnon_secure%2Fimages%2F20170622%2Ftso_logo1498155376%2Fmedium.jpg&f=1&nofb=1">
                 I was originally planning to do a musical composition based on the Trans-Siberian Orchestra.
             </Step>
             <Step name="Design" topContent={<iframe src="https://munchkinhalfling.github.io/jargvis" frameBorder="0" height="300" />}>
