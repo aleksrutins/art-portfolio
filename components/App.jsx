@@ -13,10 +13,10 @@ export default function App() {
             <Step name="Research" img="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.trans-siberian.com%2Fnon_secure%2Fimages%2F20170622%2Ftso_logo1498155376%2Fmedium.jpg&f=1&nofb=1">
                 I was originally planning to do a musical composition based on the Trans-Siberian Orchestra.
             </Step>
-            <Step name="Design" topContent={<iframe src="https://munchkinhalfling.github.io/jargvis" frameBorder="0" height="300" />}>
+            <Step name="Design" topContent={<iframe src="https://munchkinhalfling.github.io/jargvis" frameBorder="0" height="300" title="Original Website" />}>
                 I decided instead to do a website.
             </Step>
-            <Step name="Build" topContent={<iframe src="https://munchkinhalfling.gitlab.io/jargvis" frameBorder="0" height="300" />}>
+            <Step name="Build" topContent={<iframe src="https://munchkinhalfling.gitlab.io/jargvis" frameBorder="0" height="300" title="Final Website" />}>
             	I decided that the original website was a bit psychedelic for my tastes, so I made a much simpler one.
             </Step>
         </Project>

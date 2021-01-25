@@ -14,7 +14,7 @@ export default function Project(props) {
 export function Step(props) {
     return <Col>
         <Card>
-            {props.img && <Card.Img variant="top" src={props.img} />}
+            {props.img && <Card.Img variant="top" src={props.img} alt={props.name} />}
             {props.topContent}
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
