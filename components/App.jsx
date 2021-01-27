@@ -17,9 +17,13 @@ export default function App() {
             </Step>
             <Step name="Design" topContent={<iframe src="https://munchkinhalfling.github.io/jargvis" frameBorder="0" height="300" title="Original Website" />}>
                 I decided instead to do a website.
+                <hr/>
+                <a href="https://munchkinhalfling.github.io/jargvis">See it here.</a>
             </Step>
             <Step name="Build" topContent={<iframe src="https://munchkinhalfling.gitlab.io/jargvis" frameBorder="0" height="300" title="Final Website" />}>
             	I decided that the original website was a bit psychedelic for my tastes, so I made a much simpler one.
+                <hr/>
+                <a href="https://munchkinhalfling.gitlab.io/jargvis">See it here.</a>
             </Step>
         </Project>
         <Project name="Music Visualization">
