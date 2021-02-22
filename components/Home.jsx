@@ -18,10 +18,10 @@ return <Container><Jumbotron style={{borderTopLeftRadius: "0px", borderTopRightR
                 <hr/>
                 <a href="https://aleksrutins.github.io/jargvis">See it here.</a>
             </Step>
-            <Step name="Build" topContent={<iframe src="https://aleksrutins.github.io/jargvis" frameBorder="0" height="300" title="Final Website" />}>
+            <Step name="Build" topContent={<iframe src="https://aleksrutins.github.io/jargvis2" frameBorder="0" height="300" title="Final Website" />}>
             	I decided that the original website was a bit psychedelic for my tastes, so I made a much simpler one.
                 <hr/>
-                <a href="https://aleksrutins.github.io/jargvis">See it here.</a>
+                <a href="https://aleksrutins.github.io/jargvis2">See it here.</a>
             </Step>
         </Project>
         <Project name="Music Visualization">
