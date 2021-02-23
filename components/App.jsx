@@ -8,6 +8,7 @@ import {
 import Home from './Home';
 import Criticism from './Criticism';
 import { Navbar, Nav } from 'react-bootstrap';
+import ErrorPage from './Error';
 
 export default function App() {
 return (
@@ -32,6 +33,9 @@ return (
           </Route>
           <Route path="/criticism">
             <Criticism />
+          </Route>
+          <Route path="*">
+            <ErrorPage err="404"></ErrorPage>
           </Route>
         </Switch>
       </div>
