@@ -21,6 +21,7 @@ return (
               <Link className="nav-link" to="/">Home</Link>
               <Link className="nav-link" to="/criticism">Art Criticism</Link>
             </Nav>
+            <a className="nav-link" href="//aleks.rutins.com">Main Site</a>
           </Navbar.Collapse>
         </Navbar>
 

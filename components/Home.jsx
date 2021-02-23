@@ -43,17 +43,10 @@ return <Container><Jumbotron style={{borderTopLeftRadius: "0px", borderTopRightR
             	Not done yet
             </Step>
         </Project>
-        <h2>Inspiration</h2>
-        <Row>
-            <Card>
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2Rkx6b5vFdQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <Card.Body>
-                    <Card.Title>Haken</Card.Title>
-                    <p>
-                        Haken is an English progressive metal band.
-                    </p>
-                </Card.Body>
-            </Card>
-        </Row>
+        <Project name="Unnamed">
+                <Step name="Planning" topContent={<iframe src="https://www.youtube-nocookie.com/embed/2Rkx6b5vFdQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>}>
+                    Haken is an English progressive metal band.
+                </Step>
+        </Project>
         </Container>
         }
