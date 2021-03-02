@@ -13,7 +13,8 @@ import ErrorPage from './Error';
 export default function App() {
 return (
     <Router>
-      <div>
+      <div id="page-container">
+        <div id="content-wrap">
         <Navbar sticky="top" variant="dark" bg="dark">
           <Link className="navbar-brand" to="/">Art Portfolio</Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,7 +23,9 @@ return (
               <Link className="nav-link" to="/">Home</Link>
               <Link className="nav-link" to="/criticism">Art Criticism</Link>
             </Nav>
-            <a className="nav-link" href="//aleks.rutins.com">Main Site</a>
+            <Nav>
+              <Nav.Link href="//aleks.rutins.com">Main Site</Nav.Link>
+            </Nav>
           </Navbar.Collapse>
         </Navbar>
 
@@ -39,6 +42,10 @@ return (
             <ErrorPage err="404"></ErrorPage>
           </Route>
         </Switch>
+        </div>
+        <footer id="footer" className="text-light bg-dark">
+          <p>Font: <a href="https://fonts.google.com/specimen/Red+Hat+Display">Red Hat Display</a></p>
+        </footer>
       </div>
     </Router>
   );
