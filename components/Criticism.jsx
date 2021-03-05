@@ -14,6 +14,10 @@ export default function Criticism() {
                 <p>
                     This image, although computer-generated, makes me feel somewhat awed by the technical skill that the artist had in creating it. Some very complex mathematics are needed in order to create something like this.
                 </p>
+                <h5>Formalism</h5>
+                <p>
+                    This image is mainly brown. However, the artist used lighting and shadows to create many different shades, with gradients between them. You can also see some yellow in the picture, as a gradient with the brown.
+                </p>
             </Media.Body>
         </Media>
     </Container>
