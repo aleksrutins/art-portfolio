@@ -43,10 +43,20 @@ return <Container><Jumbotron style={{borderTopLeftRadius: "0px", borderTopRightR
             	Not done yet
             </Step>
         </Project>
+	<Project name="2021 Overture">
+	    <div>
+		The 2021 Overture is a musical composition that I created. I consider it to be one of my best compositions. It was mainly inspired by Dream Theater and Symphony X.
+	    </div>
+	</Project>
         <Project name="Unnamed">
                 <Step name="Planning" topContent={<iframe src="https://www.youtube-nocookie.com/embed/2Rkx6b5vFdQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>}>
                     Haken is an English progressive metal band.
                 </Step>
         </Project>
+	<Project name="Unnamed">
+		<Step name="Planning" topContent={<iframe src="https://open.spotify.com/embed/album/38E1DLQ4SsSCUj2xSPrp9I" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>}>
+		Orden Ogan is a German power metal band. Their songs contain metaphors for current events and problems. Their name translates to "Order of Fear" in Old Celtic and German.
+		</Step>
+		</Project>
         </Container>
         }
