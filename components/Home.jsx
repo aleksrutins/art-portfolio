@@ -59,8 +59,8 @@ return <Container><Jumbotron style={{borderTopLeftRadius: "0px", borderTopRightR
 		</Step>
 		</Project>
         <Project name="Portrait">
-            <Step name="Planning" img="https://static.boredpanda.com/blog/wp-content/uploads/2014/12/impressionist-experience-2.jpg">
-                This is a photograph created as part of a project called the Impressionist Experience. It was created by Aurélien Bigot and Richard Forestier.
+            <Step name="Planning" img="https://pro2-bar-s3-cdn-cf.myportfolio.com/605533d7-ce09-4efc-aeef-99dc34b53562/ba1960b5-6ae7-4cd7-b30a-407fe3db0c90_rw_1920.jpg">
+                This is "The Mapmaker" by Bethany Perron.
             </Step>
         </Project>
         </Container>
