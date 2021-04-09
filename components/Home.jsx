@@ -63,5 +63,10 @@ return <Container><Jumbotron style={{borderTopLeftRadius: "0px", borderTopRightR
                 This is "The Mapmaker" by Bethany Perron.
             </Step>
         </Project>
+        <Project name="Album Artwork">
+            <Step name="Planning" img="https://upload.wikimedia.org/wikipedia/en/1/1e/Rush_A_Farewell_to_Kings.jpg">
+                I am inspired by <a href="https://rush.com">Rush</a>'s and <a href="https://yynotband.com">YYNOT</a>'s album covers.
+            </Step>
+        </Project>
         </Container>
         }
