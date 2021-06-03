@@ -9,6 +9,7 @@ import Home from './Home';
 import Criticism from './Criticism';
 import { Navbar, Nav } from 'react-bootstrap';
 import ErrorPage from './Error';
+import ArtistStatement from './ArtistStatement';
 
 export default function App() {
 return (
@@ -22,6 +23,7 @@ return (
             <Nav className="mr-auto">
               <Link className="nav-link" to="/">Home</Link>
               <Link className="nav-link" to="/criticism">Art Criticism</Link>
+              <Link className="nav-link" to="/statement">Artist Statement</Link>
             </Nav>
             <Nav>
               <Nav.Link href="//aleks.rutins.com">Main Site</Nav.Link>
@@ -37,6 +39,9 @@ return (
           </Route>
           <Route path="/criticism">
             <Criticism />
+          </Route>
+          <Route path="/statement">
+            <ArtistStatement></ArtistStatement>
           </Route>
           <Route path="*">
             <ErrorPage err="404"></ErrorPage>
