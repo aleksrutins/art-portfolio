@@ -1,8 +1,8 @@
 import React from 'react';
-import { Jumbotron } from 'react-bootstrap';
+import { Container, Jumbotron } from 'react-bootstrap';
 
 export default function ArtistStatement() {
-    return <div>
+    return <Container>
         <Jumbotron style={{ borderTopLeftRadius: '0px', borderTopRightRadius: '0px' }}>
             <h1>Artist Statement</h1>
         </Jumbotron>
@@ -31,5 +31,5 @@ export default function ArtistStatement() {
             This may seem odd, but to me, the piece has many shifting colors. It generally shifts between blue and green, with occasional red and grey. There are no straight lines, except perhaps the fence depicted in measures 32 through 35.
 
     </p>
-    </div>
+    </Container>
 }
